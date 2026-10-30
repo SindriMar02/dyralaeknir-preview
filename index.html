@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      /* focus-guard: a focus ring only for people using a keyboard.
+
+   The bug it ends: a menu, drawer or dialog opens and its FIRST link (or the dialog's close button)
+   is outlined, as if it were selected. Cause: opening code calls first.focus(), or <dialog>.showModal()
+   focuses the first control by itself. When nothing was focused before, the browser decides the ring is
+   wanted. Safari never focuses a button on click and a touch tap never does either, so on iPhone,
+   iPad and Safari the very first tap paints the ring. Chrome with a mouse hides it, which is why it
+   passes the desktop check and then reappears on Sindri's phone.
+
+   How: remember the last input kind on <html data-input="pointer|key"> and let focus-guard.css drop the
+   ring while the last input was a pointer. Keyboard users keep every ring. Load before everything else
+   (inline in <head>, ~400 bytes), no dependencies. Doc: _tools/focus-guard/README.md */
+      (function () {
+        var root = document.documentElement;
+        function set(v) {
+          if (root.getAttribute("data-input") !== v) root.setAttribute("data-input", v);
+        }
+        addEventListener(
+          "pointerdown",
+          function () {
+            set("pointer");
+          },
+          true,
+        );
+        addEventListener(
+          "keydown",
+          function (e) {
+            if (e.key === "Shift" || e.key === "Control" || e.key === "Alt" || e.key === "Meta") return;
+            set("key");
+          },
+          true,
+        );
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta
+      name="description"
+      content="Dýralæknaþjónusta Suðurlands. Þjónusta fyrir bændur, hesta og smádýr. Neyðarvakt 482 3060."
+    />
+    <link rel="icon" type="image/png" href="/dyralaeknir-preview/favicon.png" />
+    <link rel="apple-touch-icon" href="/dyralaeknir-preview/apple-touch-icon.png" />
+    <link rel="preload" as="font" type="font/woff2" href="/dyralaeknir-preview/media/fonts/manrope-v20-latin_latin-ext-regular.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/dyralaeknir-preview/media/fonts/manrope-v20-latin_latin-ext-500.woff2" crossorigin />
+    <title>Dýralæknaþjónusta Suðurlands | Stuðlar</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VeterinaryCare",
+        "name": "Dýralæknaþjónusta Suðurlands",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Stuðlar",
+          "postalCode": "816",
+          "addressLocality": "Ölfus",
+          "addressCountry": "IS"
+        },
+        "telephone": "+354 482 3060",
+        "email": "dyralaeknir@dyralaeknir.is",
+        "openingHours": "Mo-Fr 08:00-17:00"
+      }
+    </script>
+    <script type="module" crossorigin src="/dyralaeknir-preview/assets/index-VBI3zGZQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/dyralaeknir-preview/assets/index-cW05Jszh.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">Fara í efni</a>
+    <div class="duty-strip"><a href="tel:+3544823060">Neyðarvakt allan sólarhringinn · 482 3060</a><span data-duty-status>Lokað núna</span></div>
+    <header class="header">
+      <a class="logo" href="#/" aria-label="Dýralæknaþjónusta Suðurlands, forsíða"
+        ><img src="/dyralaeknir-preview/media/logo.png" width="48" height="48" alt="" /><span
+          >Dýralæknaþjónusta<br />Suðurlands</span
+        ></a
+      >
+      <nav class="desktop-nav" aria-label="Aðalvalmynd">
+        <a href="#/thjonusta">Þjónusta</a><a href="#/verdskra">Verðskrá</a><a href="#/beidni">Senda beiðni</a
+        ><a href="#/starfsfolk">Starfsfólk</a><a href="#/verslun">Verslun</a><a href="#/greinar">Greinar</a
+        ><a href="#/hafa-samband">Samband</a>
+      </nav>
+      <div class="header-actions">
+        <a class="duty-pill" href="tel:+3544823060"
+          ><span class="status-dot" aria-hidden="true"></span><span data-duty-short>Neyðarvakt</span></a
+        ><span data-shell-button="header"></span><button class="menu-toggle" aria-label="Opna valmynd" aria-controls="menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="footer">
+      <div class="footer-brand-row">
+        <a class="footer-brand" href="#/" aria-label="Forsíða"><img src="/dyralaeknir-preview/media/logo.png" width="56" height="56" alt="" /><span>Dýralæknaþjónusta<br />Suðurlands</span></a>
+        <a class="footer-call" href="tel:+3544823060"><span>Neyðarvakt allan sólarhringinn</span><strong>482 3060</strong></a>
+      </div>
+      <div class="footer-grid">
+        <div><h2>Samband</h2><p><a href="mailto:dyralaeknir@dyralaeknir.is">dyralaeknir@dyralaeknir.is</a></p><p>Stuðlar, 816 Ölfus<br /><span class="nowrap">kt. 440196-2689</span></p></div>
+        <div><h2>Opnunartími</h2><p>Mánudagur til föstudags<br />08:00–17:00</p><p>Laugardagur: Lokað<br />Sunnudagur: Lokað</p></div>
+        <nav aria-label="Síður í fæti"><h2>Síður</h2><ul class="footer-links"><li><a href="#/thjonusta">Þjónusta</a></li><li><a href="#/verdskra">Verðskrá</a></li><li><a href="#/beidni">Senda beiðni</a></li><li><a href="#/starfsfolk">Starfsfólk</a></li><li><a href="#/verslun">Verslun</a></li><li><a href="#/greinar">Greinar</a></li><li><a href="#/hafa-samband">Hafa samband</a></li></ul></nav>
+      </div>
+      <div class="footer-bottom">
+        <span>Dýralæknaþjónusta Suðurlands · Hönnunartillaga</span>
+        <span class="footer-bottom-end"><a href="https://sndrstudio.is" target="_blank" rel="noopener">Designed by SNDR Studio <span aria-hidden="true">↗</span></a><button class="back-to-top" type="button" aria-label="Efst á síðu" data-back-top>↑</button></span>
+      </div>
+    </footer>
+    <dialog id="menu" class="menu-dialog" aria-labelledby="menu-title" tabindex="-1">
+      <div class="dialog-top">
+        <h2 id="menu-title">Valmynd</h2>
+        <button data-close="menu" class="close-button" aria-label="Loka valmynd">×</button>
+      </div>
+      <nav aria-label="Valmynd">
+        <a href="#/thjonusta">Þjónusta</a><a href="#/verdskra">Verðskrá</a><a href="#/beidni">Senda beiðni</a
+        ><a href="#/starfsfolk">Starfsfólk</a><a href="#/verslun">Verslun</a><a href="#/greinar">Greinar</a
+        ><a href="#/hafa-samband">Samband</a>
+      </nav>
+      <span data-shell-button="menu"></span>
+      <a class="menu-mail" href="mailto:dyralaeknir@dyralaeknir.is">dyralaeknir@dyralaeknir.is</a>
+    </dialog>
+  </body>
+</html>

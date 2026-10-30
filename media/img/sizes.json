@@ -1,0 +1,322 @@
+{
+  "1-1.jpg": {
+    "width": 1091,
+    "height": 1454,
+    "variants": [
+      {
+        "file": "1-1-800.webp",
+        "width": 800,
+        "height": 1066
+      },
+      {
+        "file": "1-1-1091.webp",
+        "width": 1091,
+        "height": 1454
+      }
+    ]
+  },
+  "1.jpg": {
+    "width": 720,
+    "height": 960,
+    "variants": [
+      {
+        "file": "1-360.webp",
+        "width": 360,
+        "height": 480
+      },
+      {
+        "file": "1-720.webp",
+        "width": 720,
+        "height": 960
+      }
+    ]
+  },
+  "121166361_3358603824194086_8853296796252685700_o.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "file": "121166361_3358603824194086_8853296796252685700_o-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "file": "121166361_3358603824194086_8853296796252685700_o-1536.webp",
+        "width": 1536,
+        "height": 2048
+      }
+    ]
+  },
+  "121468042_3358551440865991_6296607495732642133_o.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "file": "121468042_3358551440865991_6296607495732642133_o-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "file": "121468042_3358551440865991_6296607495732642133_o-1536.webp",
+        "width": 1536,
+        "height": 2048
+      }
+    ]
+  },
+  "124173024_1206681873116239_7346526300698336781_n.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "file": "124173024_1206681873116239_7346526300698336781_n-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "file": "124173024_1206681873116239_7346526300698336781_n-1536.webp",
+        "width": 1536,
+        "height": 2048
+      }
+    ]
+  },
+  "124181201_397878051250926_9021549021752209877_n.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "file": "124181201_397878051250926_9021549021752209877_n-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "file": "124181201_397878051250926_9021549021752209877_n-1536.webp",
+        "width": 1536,
+        "height": 2048
+      }
+    ]
+  },
+  "124193942_1036156836807916_713055540740540854_n.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "file": "124193942_1036156836807916_713055540740540854_n-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "file": "124193942_1036156836807916_713055540740540854_n-1536.webp",
+        "width": 1536,
+        "height": 2048
+      }
+    ]
+  },
+  "3.jpg": {
+    "width": 720,
+    "height": 960,
+    "variants": [
+      {
+        "file": "3-360.webp",
+        "width": 360,
+        "height": 480
+      },
+      {
+        "file": "3-720.webp",
+        "width": 720,
+        "height": 960
+      }
+    ]
+  },
+  "4.jpg": {
+    "width": 1072,
+    "height": 1440,
+    "variants": [
+      {
+        "file": "4-800.webp",
+        "width": 800,
+        "height": 1075
+      },
+      {
+        "file": "4-1072.webp",
+        "width": 1072,
+        "height": 1440
+      }
+    ]
+  },
+  "6-1.png": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "file": "6-1-800.webp",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "file": "6-1-1000.webp",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  "6-scaled.jpg": {
+    "width": 1920,
+    "height": 2560,
+    "variants": [
+      {
+        "file": "6-scaled-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "file": "6-scaled-1600.webp",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  },
+  "7-1.jpg": {
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "file": "7-1-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "file": "7-1-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ]
+  },
+  "7.jpg": {
+    "width": 960,
+    "height": 640,
+    "variants": [
+      {
+        "file": "7-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "file": "7-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ]
+  },
+  "89554529_2784390214948786_8541210966870720512_o.jpg": {
+    "width": 1072,
+    "height": 1920,
+    "variants": [
+      {
+        "file": "89554529_2784390214948786_8541210966870720512_o-800.webp",
+        "width": 800,
+        "height": 1433
+      },
+      {
+        "file": "89554529_2784390214948786_8541210966870720512_o-1072.webp",
+        "width": 1072,
+        "height": 1920
+      }
+    ]
+  },
+  "cropped-logo.png": {
+    "width": 512,
+    "height": 512,
+    "variants": [
+      {
+        "file": "cropped-logo-256.webp",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "file": "cropped-logo-512.webp",
+        "width": 512,
+        "height": 512
+      }
+    ]
+  },
+  "dog-sad-waiting-2785074.jpg": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "file": "dog-sad-waiting-2785074-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "file": "dog-sad-waiting-2785074-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "dysulogo.png": {
+    "width": 890,
+    "height": 96,
+    "variants": [
+      {
+        "file": "dysulogo-800.webp",
+        "width": 800,
+        "height": 86
+      },
+      {
+        "file": "dysulogo-890.webp",
+        "width": 890,
+        "height": 96
+      }
+    ]
+  },
+  "horses-iceland-the-horse-3668914.jpg": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "file": "horses-iceland-the-horse-3668914-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "file": "horses-iceland-the-horse-3668914-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "kind.jpg": {
+    "width": 410,
+    "height": 308,
+    "variants": [
+      {
+        "file": "kind-205.webp",
+        "width": 205,
+        "height": 154
+      },
+      {
+        "file": "kind-410.webp",
+        "width": 410,
+        "height": 308
+      }
+    ]
+  },
+  "logo1@2x.png": {
+    "width": 360,
+    "height": 92,
+    "variants": [
+      {
+        "file": "logo1@2x-180.webp",
+        "width": 180,
+        "height": 46
+      },
+      {
+        "file": "logo1@2x-360.webp",
+        "width": 360,
+        "height": 92
+      }
+    ]
+  }
+}
